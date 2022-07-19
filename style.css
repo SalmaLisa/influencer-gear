@@ -78,9 +78,24 @@ a{
 }
 .banner-img{
   background-image: url(images/Circle\ design.svg);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center  ;
+  
 }
 .banner-img img{
   margin-top: 50px;
   margin-left: 60px;
 }
+/*---- client-company-logos section start -----*/
+.logos{
+  width: 85%;
+  margin: 70px auto;
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  border-top: 2px solid transparent;
+  border-image: linear-gradient(90deg,white,#cac7c7 ,white);
+  border-image-slice: 1;
+  border-bottom: 2px solid transparent;
+  padding: 40px 0 20px;
+}
+/*---- popular-collection section start -----*/
